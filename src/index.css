@@ -1,0 +1,24 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.custom-tooltip {
+  max-width: 100%;
+  width: auto;
+  white-space: normal;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #1a103d;
+}
+
+body.dark-mode {
+  background-color: #1a103d;
+  color: #ffffff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
